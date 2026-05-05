@@ -26,6 +26,7 @@
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
+- [Application Preview](#-application-preview)
 - [Key Features](#-features)
 - [Architecture](#-architecture)
 - [Tech Stack](#-tech-stack)
@@ -45,6 +46,22 @@
 2.  **The Immutable Vault:** A specialized backend that uses SQLite triggers to prevent any tampering with historical audit logs.
 3.  **The Explainer Agent:** A RAG-powered reconstruction engine that pulls agent thoughts from ChromaDB and metadata from SQLite to explain decisions in natural language.
 4.  **Premium Monitoring Dashboard:** A glassmorphic React interface that visualizes decision paths using React Flow graphs.
+
+---
+
+## 🖼️ Application Preview
+
+<div align="center">
+
+### 1) Decision Dashboard & Flow Graph
+![Dashboard](docs/screenshots/dashboard-preview.png)
+
+<br/>
+
+### 2) AI Reasoning Reconstruction (Core)
+![Reasoning Core](docs/screenshots/reasoning-core.png)
+
+</div>
 
 ---
 
