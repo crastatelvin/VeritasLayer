@@ -83,7 +83,7 @@
 
 ```
 ┌───────────────────────────────────────────────────────────┐
-│              Agentic Application (Shadow COO)             │
+│                    Agentic Application                    │
 │                                                           │
 │  @audit_trace decorator ──► PII Redactor ──► POST /logs   │
 └──────────────────────────────┬────────────────────────────┘
@@ -93,7 +93,7 @@
 │                   VeritasLayer Vault (API)                │
 │                                                           │
 │  /logs    ─► SQLite (Immutability) ─► ChromaDB (Thoughts) │
-│  /explain ─► Gemini 1.5 Flash      ─► Structured Analysis │
+│  /explain ─► Gemini 2.5 Flash      ─► Structured Analysis │
 └──────────────────────────────┬────────────────────────────┘
                                │
                                ▼
@@ -101,7 +101,7 @@
 │                  Verification Dashboard                   │
 │                                                           │
 │  Feed: Searchable Decision Trail                          │
-│  Graph: React Flow Decision Path Visualization           │
+│  Graph: React Flow Decision Path Visualization            │
 │  Core: Structured Logic Reconstruction Cards              │
 └───────────────────────────────────────────────────────────┘
 ```
@@ -217,5 +217,5 @@ This project is licensed under the MIT License.
 <div align="center">
 Built by Telvin Crasta · Production-Ready Governance · 2026
 <br/><br/>
-⭐ Star **VeritasLayer** if you believe AI should be transparent and auditable.
+⭐ Star VeritasLayer if you believe AI should be transparent and auditable.
 </div>
