@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="docs/images/veritas-logo.png" alt="VeritasLayer logo" width="180"/>
+
 # 🛡️ VeritasLayer
 
 ### The Truth Layer for AI — Explainable Governance & Immutable Audit Trails
